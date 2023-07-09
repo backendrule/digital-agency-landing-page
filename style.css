@@ -35,6 +35,49 @@
     display: flex;
 }
 
-.header-info{
+.header-info {
     padding: 0px 30px 0px 50%;
+}
+
+/* main sedction style start here */
+
+
+
+.failure-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 150px 0px 0px 0px;
+}
+
+.failure-img {
+    width: 451px;
+    height: 500px;
+    flex-shrink: 0;
+}
+
+.failure-des{
+display: flex;
+width: 416px;
+flex-direction: column;
+flex-shrink: 0;
+padding: 10px 0px 10px 0px;
+}
+
+/* My Plan are style start here */
+
+.my-plan-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 106px;
+    padding: 100px 0px 0px 0px;
+}
+
+.my-plan-title{
+    color:#151414;
+font-size: 40px;
+font-weight: 700;
+text-align: center;
+padding-top: 50px;
 }
